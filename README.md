@@ -1,0 +1,1 @@
+# vault-ldap-namespace-demo
