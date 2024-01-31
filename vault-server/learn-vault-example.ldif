@@ -1,0 +1,420 @@
+
+dn: ou=um_group,dc=hashidemos,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: um_group
+
+dn: ou=posix_group,dc=hashidemos,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: posix_group
+
+dn: ou=people,dc=hashidemos,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: people
+
+dn: ou=service_acct,dc=hashidemos,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: service_acct
+
+
+dn: cn=mitchell,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: mitchell
+sn: Hashimoto
+givenName: Mitchell
+homeDirectory: /home/mitchell
+uid: mitchell
+uidNumber: 1000
+gidNumber: 1000
+mail: mitchell@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=armon,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: armon
+sn: Dadgar
+givenName: Armon
+homeDirectory: /home/armon
+uid: armon
+uidNumber: 1001
+gidNumber: 1000
+mail: armon@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=jlundberg,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: jlundberg
+sn: Lundberg
+givenName: Jake
+homeDirectory: /home/jlundberg
+uid: jlundberg
+uidNumber: 1002
+gidNumber: 1000
+mail: jlundberg@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=llarsen,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: llarsen
+sn: Larsen
+givenName: Lance
+homeDirectory: /home/llarsen
+uid: llarsen
+uidNumber: 1003
+gidNumber: 1000
+mail: llarsen@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=bgreen,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: bgreen
+sn: Green
+givenName: Brian
+homeDirectory: /home/bgreen
+uid: bgreen
+uidNumber: 1004
+gidNumber: 1000
+mail: bgreen@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=ehron,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: ehron
+sn: Gwinn
+givenName: Ehron
+homeDirectory: /home/ehron
+uid: ehron
+uidNumber: 1005
+gidNumber: 1000
+mail: ehron@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=jeff,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: jeff
+sn: Mitchell
+givenName: Jeff
+homeDirectory: /home/jeff
+uid: jeff
+uidNumber: 1006
+gidNumber: 1000
+mail: jeff@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=andy,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: andy
+sn: Manoski
+givenName: Andy
+homeDirectory: /home/andy
+uid: andy
+uidNumber: 1007
+gidNumber: 1000
+mail: andy@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=geoffrey,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: geoffrey
+sn: Grosenbach
+givenName: Geoffrey
+homeDirectory: /home/geoffrey
+uid: geoffrey
+uidNumber: 1008
+gidNumber: 1000
+mail: geoffrey@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=yoko,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: yoko
+sn: Hyakuna
+givenName: Yoko
+homeDirectory: /home/yoko
+uid: yoko
+uidNumber: 1009
+gidNumber: 1000
+mail: yoko@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=rachel,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: rachel
+sn: Sharp
+givenName: Rachel
+homeDirectory: /home/rachel
+uid: rachel
+uidNumber: 1010
+gidNumber: 1000
+mail: rachel@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+
+dn: cn=admins,ou=posix_group,dc=hashidemos,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: admins
+gidNumber: 1000
+memberUid: cn=mitchell,ou=people,dc=hashidemos,dc=com
+memberUid: cn=armon,ou=people,dc=hashidemos,dc=com
+memberUid: cn=jlundberg,ou=people,dc=hashidemos,dc=com
+memberUid: cn=llarsen,ou=people,dc=hashidemos,dc=com
+memberUid: cn=bgreen,ou=people,dc=hashidemos,dc=com
+memberUid: cn=ehron,ou=people,dc=hashidemos,dc=com
+memberUid: cn=vaultadmin1,ou=people,dc=hashidemos,dc=com
+memberUid: cn=ns1_admin_1,ou=people,dc=hashidemos,dc=com
+memberUid: cn=ns2_admin_1,ou=people,dc=hashidemos,dc=com
+
+
+
+dn: cn=vault_devs,ou=posix_group,dc=hashidemos,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: vault_devs
+gidNumber: 1001
+memberUid: cn=jeff,ou=people,dc=hashidemos,dc=com
+memberUid: cn=andy,ou=people,dc=hashidemos,dc=com
+
+dn: cn=users,ou=posix_group,dc=hashidemos,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: users
+gidNumber: 1002
+memberUid: cn=geoffrey,ou=people,dc=hashidemos,dc=com
+memberUid: cn=yoko,ou=people,dc=hashidemos,dc=com
+memberUid: cn=rachel,ou=people,dc=hashidemos,dc=com
+
+
+dn: cn=founders,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: founders
+uniqueMember: cn=mitchell,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=armon,ou=people,dc=hashidemos,dc=com
+
+dn: cn=vagrant,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: vagrant
+uniqueMember: cn=mitchell,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=armon,ou=people,dc=hashidemos,dc=com
+
+dn: cn=vault,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: vault
+uniqueMember: cn=mitchell,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=armon,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=jeff,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=andy,ou=people,dc=hashidemos,dc=com
+
+dn: cn=nomad,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: nomad
+uniqueMember: cn=mitchell,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=armon,ou=people,dc=hashidemos,dc=com
+
+dn: cn=terraform,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: terraform
+uniqueMember: cn=mitchell,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=armon,ou=people,dc=hashidemos,dc=com
+
+dn: cn=consul,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: consul
+uniqueMember: cn=mitchell,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=armon,ou=people,dc=hashidemos,dc=com
+
+dn: cn=packer,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: packer
+uniqueMember: cn=mitchell,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=armon,ou=people,dc=hashidemos,dc=com
+
+dn: cn=solutions_engineering,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: solutions_engineering
+uniqueMember: cn=jlundberg,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=llarsen,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=ehron,ou=people,dc=hashidemos,dc=com
+
+dn: cn=nomad_gtm,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: nomad_gtm
+uniqueMember: cn=jlundberg,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=ehron,ou=people,dc=hashidemos,dc=com
+
+dn: cn=vault_education,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: vault_education
+uniqueMember: cn=jlundberg,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=geoffrey,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=yoko,ou=people,dc=hashidemos,dc=com
+
+dn: cn=terraform_gtm,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: terraform_gtm
+uniqueMember: cn=llarsen,ou=people,dc=hashidemos,dc=com
+
+dn: cn=pro_svcs,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: pro_svcs
+uniqueMember: cn=bgreen,ou=people,dc=hashidemos,dc=com
+
+dn: cn=vault_gtm,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: vault_gtm
+uniqueMember: cn=bgreen,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=jeff,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=andy,ou=people,dc=hashidemos,dc=com
+
+dn: cn=education,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: education
+uniqueMember: cn=geoffrey,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=yoko,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=rachel,ou=people,dc=hashidemos,dc=com
+
+dn: cn=consul_education,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: consul_education
+uniqueMember: cn=geoffrey,ou=people,dc=hashidemos,dc=com
+
+dn: cn=terraform_education,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: terraform_education
+uniqueMember: cn=geoffrey,ou=people,dc=hashidemos,dc=com
+uniqueMember: cn=rachel,ou=people,dc=hashidemos,dc=com
+
+dn: cn=nomad_education,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: nomad_education
+uniqueMember: cn=geoffrey,ou=people,dc=hashidemos,dc=com
+
+dn: cn=vault_admins,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: vault_admins
+uniqueMember: cn=vaultadmin1,ou=people,dc=hashidemos,dc=com
+
+dn: cn=vaultadmin1,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: vaultadmin1
+sn: Admin1
+givenName: vaultadmin1
+homeDirectory: /home/vaultadmin1
+uid: vaultadmin1
+uidNumber: 1011
+gidNumber: 1000
+mail: vaultadmin1@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=ns1_admins,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: ns1_admins
+uniqueMember: cn=ns1_admin_1,ou=people,dc=hashidemos,dc=com
+
+dn: cn=ns1_admin_1,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: ns1_admin_1
+sn: ns1_admin_1
+givenName: ns1_admin_1
+homeDirectory: /home/ns1_admin_1
+uid: ns1_admin_1
+uidNumber: 1012
+gidNumber: 1000
+mail: ns1_admin_1@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==
+
+dn: cn=ns2_admins,ou=um_group,dc=hashidemos,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: ns2_admins
+uniqueMember: cn=ns2_admin_1,ou=people,dc=hashidemos,dc=com
+
+dn: cn=ns2_admin_1,ou=people,dc=hashidemos,dc=com
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: ns2_admin_1
+sn: ns2_admin_1
+givenName: ns2_admin_1
+homeDirectory: /home/ns2_admin_1
+uid: ns2_admin_1
+uidNumber: 1013
+gidNumber: 1000
+mail: ns2_admin_1@hashicorp.com                      
+userPassword: {SSHA}p+PkwHDzATkWKB5EgBIiFVOOPMM0Ux6UZ0Z1bw==

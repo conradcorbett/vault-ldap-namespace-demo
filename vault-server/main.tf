@@ -13,8 +13,8 @@ provider "docker" {}
 
 # Define the Docker container resource
 resource "docker_container" "vault" {
-  image = var.docker_image
-  name  = "vault_named_mfa"
+  image = var.docker_image_vault
+  name  = "vault_demo_ns"
   rm    = true
 
   env = [
@@ -24,5 +24,29 @@ resource "docker_container" "vault" {
   ports {
     internal = 8200
     external = 8200
+  }
+}
+
+resource "docker_container" "openldap" {
+  image = var.docker_image_openldap
+  name  = "openldap"
+  rm    = true
+
+  env = [
+    "LDAP_ORGANISATION=hashidemos",
+    "LDAP_DOMAIN=hashidemos.com",
+    "LDAP_ADMIN_PASSWORD=1LearnVault",
+    "LDAP_READONLY_USER=true",
+    "LDAP_READONLY_USER_USERNAME=read-only",
+    "LDAP_READONLY_USER_PASSWORD=devsecopsFTW"
+  ]
+
+  ports {
+    internal = 389
+    external = 389
+  }
+  ports {
+    internal = 636
+    external = 636
   }
 }
