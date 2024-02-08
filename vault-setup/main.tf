@@ -2,9 +2,9 @@ provider "vault" {
   address = "http://127.0.0.1:8200"
 }
 
-resource "vault_namespace" "solutions_engineering" {
-  path = "solutions_engineering"
-}
+#resource "vault_namespace" "solutions_engineering" {
+#  path = "solutions_engineering"
+#}
 
 resource "vault_namespace" "ns1" {
   path = "ns1"

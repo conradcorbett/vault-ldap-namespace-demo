@@ -39,3 +39,9 @@ vault login -method=ldap -path=ldap/ username=ns1_admin_1 password=thispasswords
 vault namespace list
 VAULT_NAMESPACE="ns1" vault namespace list
 ```
+
+## Destroy
+```shell
+terraform destroy
+cd ../vault-server && terraform destroy
+```
